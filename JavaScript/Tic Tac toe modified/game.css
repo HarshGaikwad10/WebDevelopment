@@ -1,0 +1,47 @@
+body,html {
+    height: 100%;
+    padding: 0;
+    margin: 0
+}
+
+canvas {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
+canvas:hover {
+    cursor: pointer
+}
+
+.selected,nav .bt:hover {
+    background: rgba(255,255,255,.5);
+    color: #fff
+}
+
+nav {
+    background: #1abc9c;
+    -webkit-box-shadow: 0 2.2px 7px #888;
+    -moz-box-shadow: 0 2.2px 7px #888;
+    border-radius: 0 2.2px 7px #888;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 55px;
+    line-height: 55px
+}
+
+nav span {
+    padding: 12px 5px;
+    cursor: default;
+    margin: auto 10px;
+    font-size: 22px
+}
+
+nav .bt:hover {
+    cursor: pointer
+}
